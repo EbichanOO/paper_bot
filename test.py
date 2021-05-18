@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     result = calc(1, 2)
-    return "<p>Hello, World!" + str(result) + "</p>"
+    return "<p>Hello, World!</p>"
 
 
 def calc(x: int, y: int) -> int:
