@@ -1,9 +1,9 @@
 import unittest
-from scripts import scraping
+from scripts.scraping import GoogleScholerScraping
 
 class TestGoogleScholer(unittest.TestCase):
     def setUp(self) -> None:
-        self.googleScholer = scraping.GoogleScholerScraping()
+        self.googleScholer = GoogleScholerScraping()
 
     def test_translate_one(self):
-        self.assertEqual(self.googleScholer.translate('Hello'),'こんにちは')
+        self.assertEqual(self.googleScholer.translate("Hello"),'こんにちは')

@@ -1,3 +1,3 @@
 class GoogleScholerScraping:
-    def translate(str: x) -> str:
-        return "こんにちは"
+    def translate(self,x: str) -> str:
+        return 'こんにちは'
